@@ -35,6 +35,10 @@ main {
   justify-content: center;
 }
 
+#auth-container {
+  max-width: 500px;
+}
+
 @media (min-width: 768px) {
   main {
     grid-template-columns: 2fr 1fr;
@@ -162,6 +166,11 @@ button {
 
 button:hover {
   background-color: #3949ab;
+}
+
+button:disabled {
+  background-color: #9fa3c4;
+  cursor: not-allowed;
 }
 
 .message {
